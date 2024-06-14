@@ -16,7 +16,7 @@ export const fn = (a, b, c) => {
      throw new Error("No se aplica oferta 3x1");
   }
   else {
-     let salida = Math.ceil(((a * precioA) + (b * precioB) + (c * precioC)) / 3);        
+     let salida = Math.ceil(((a * precioA) + (b * precioB) + (c * precioC))   / 3);        
 
      return salida;                                                                        
   };
