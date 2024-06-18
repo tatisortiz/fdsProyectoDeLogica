@@ -1,10 +1,12 @@
 ## Compra de empanadas 🥟
 
-Table of Contents ✅
-Problem  📝
-instalacion 🌟
-Stack  💾
-Authors👯
+<ul>
+<li>Table of Contents ✅</li>
+<li>Problem  📝</li>
+<li>instalacion 🌟</li>
+<li>Stack  💾</li>
+<li>Authors👯</li>
+</ul>
 
 ## Enunciado del problema  📝
 El profesor Maple se embarca en la tarea de adquirir empanadas para todos los participantes del bootcamp de programación. Dado que hoy es el Día de las Empanadas, hay una oferta especial en la que te llevas hasta tres empanadas y solo pagas la más cara. Con un presupuesto ajustado para el curso, los profesores debaten para intentar minimizar el gasto total por todas las empanadas.
@@ -32,18 +34,39 @@ La función debe tener tres parámetros de entrada. Cada conjunto de entrada con
 Por cada conjunto de entrada, retornar un único entero: la mínima cantidad de euros que se puede pagar para llevarse todas las empanadas.
 
 Ejemplos de casos de uso
-Entrada	Salida
-1, 1, 1	14
-3, 3, 0	26
-2, 0, 1	14
-9, 10, 11	142
-Instrucciones de uso
-Clonar el repositorio
+| Entrada     | Salida      |
+| ----------- | ----------- |
+| 1, 1, 1     | 14          |
+| 3, 3, 0     | 26          |
+| 2, 0, 1     | 14          |
+| 9, 10, 11   | 142         |
+
+
+
 
 ## Instalar las dependencias:
 
-npm install
-Completar los argumentos y el cuerpo de la función fn en el archivo (main.js). No se debe renombrar la función fn.
+1. Clonar el repositorio
+3. Instalar las dependencias:
+
+    ```bash
+    npm install
+    ```
+
+4. Completar los argumentos y el cuerpo de la función `fn` en el archivo (`main.js`). No se debe renombrar la función `fn`.
+
+    ```javascript
+    // main.js
+    export const fn = (/* argumentos de la función */) => {
+    // Cuerpo de la función: Completa la lógica de la función aquí.
+    };
+    ```
+
+4. Ejecutar los test:
+    ```bash
+    npm run test
+    ```
+
 
 
 ## Stack: ✏️
