@@ -46,12 +46,4 @@ export const fn = (a, b, c) => {
    return total;
  };
  
- // Ejemplos de uso
- try {
-   console.log(fn(9, 0, 0)); // Funciona con cantidades válidas y múltiplos de 3
-   console.log(fn(2, 0, 0)); // Error: Introduzca una cantidad de empanadas válida
-   console.log(fn(5, 2, 1)); // Error: No se aplica oferta 3x1
- } catch (e) {
-   console.error(e.message);
- }
  
