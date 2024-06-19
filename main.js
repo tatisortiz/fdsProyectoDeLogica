@@ -1,6 +1,3 @@
-
-
-
 export const fn = (a, b, c) => {
    // Precios de las empanadas según el número de ingredientes
    const prices = [12, 14, 16];
